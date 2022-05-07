@@ -39,3 +39,11 @@ console.log(data);
 ---
 
 ### STEP FIVE
+
+make var in the js to call the html elements you want to update with the API
+
+---
+
+### STEP SIX
+
+add updates to the final .then function to change the var created in step five

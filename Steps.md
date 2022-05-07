@@ -24,6 +24,11 @@ create placeholder for the api data to get put into, not strictly needed to be d
 
 ### STEP FOUR
 
+**add this to the .js file**
+fetch("https://api.github.com/users/tomhughes87")
+.then((response) => response.json())
+.then((data) => console.log(data));
+
 ---
 
 ### STEP FIVE
